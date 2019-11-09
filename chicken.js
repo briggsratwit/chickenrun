@@ -22,5 +22,9 @@
 
 
 class Chicken{
-
+  constructor(){
+    this.d = 100;
+    this.r = this.d/2;
+    this.x = 50 + this.r;
+    this.y = height - this.r;
 }
